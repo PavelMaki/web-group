@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контакты - Сайт группы</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <script defer src="js/login-popup.js"></script>
+    </head>
+    <body class="page">
+        <header class="header">
+            <img class="site-logo" src="img/logo.svg" alt="Логотип">
+            <ul class="site-menu">
+                <li><a class="menu-link" href="../index.html">Главная</a></li>
+                <li><a class="menu-link" href="../pages/students.html">Студенты</a></li>
+                <li><a class="menu-link" href="../pages/about.html">О курсе</a></li>
+                <li><a class="menu-link" href="../pages/contacts.html">Контакты</a></li>
+            </ul>  
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-heading">Войти на сайт</h2>
+                <form class="login-form" action="#" method="GET">
+                    <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                    <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                    <button class="popup-button" type="submit">Войти</button>
+                </form> 
+            </div>   
+        </header> 
+        <main class="main contacts-about">
+            <h1 class="main-heading contacts-heading">Макиенко Павел</h1>
+            <img class="class-photo" src="img/z.jpg" alt="фото Макиенко" width="278" height="235">
+            <br>
+            <h2 class="contacts-text-heading">Личная информация</h2>
+            <br>
+                 <p class="resume"><strong>Возраст: </strong>50 лет</p>
+                 <p class="resume"><strong>Образование: </strong>высшее (СГТУ)</p>
+                 <p class="resume"><strong>Семейное положение: </strong>женат, 1 ребенок</p>    
+            <br>           
+            <h2 class="contacts-text-heading">Контактные данные</h2> 
+            <address class="contacts-adress">
+                <p><strong>Адрес: </strong>г. Саратов</p>
+                <p><strong>Электронная почта: </strong><a class="email" href="mailto:pv.mk@bk.ru">pv.mk@bk.ru</a></p>                
+            </address>
+            <div class="contacts-maps" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/194/saratov/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Саратов</a><a href="https://yandex.ru/maps/194/saratov/?ll=46.034265%2C51.533561&utm_medium=mapframe&utm_source=maps&z=12" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Саратова с улицами и номерами домов онлайн — Яндекс Карты</a><iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/-/CCUZrVuEXC" width="560" height="400" style="position:relative;"></iframe></div>
+            <br>
+        </main>  
+        <footer class="footer">
+            <p class="copywrite">2022 &copy; <a class="innop-link" href="https://innopolis.com/">Иннополис</a></p>
+        </footer>      
+    </body>
+    </html>
